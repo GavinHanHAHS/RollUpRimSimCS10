@@ -29,6 +29,9 @@
       <option value="sas">Saskatchewan</option>
     </select>
 
+    <p><span id="warning"></span></p>
+    
+
     <!-- Options for simulation -->
     <div class="buttons">
       <button id="once">Simulate Once</button>
@@ -42,7 +45,7 @@
 
     <!-- Image for prize -->
     <h2> Prize </h2>
-    <img src="media/questionMark.png" alt="Prize Image" width="400">
+    <img id="prizeImg" src="media/questionMark.png" alt="Prize Image" height="400">
 
     <!-- No. of prizes -->
     <h3>No. of prizes</h3>
@@ -50,10 +53,13 @@
       <li>Nothing: <span id="nothing">0</span></li>
       <li>Free Donut: <span id="donut">0</span></li>
       <li>Free Coffee: <span id="coffee">0</span></li>
-      <li>Grand Prize: <span id="grand">0</span></li>
+      <li>Grand Prize: <span id="grandPrize">0</span></li>
     </ul>
 
   </div>
+
+<script src="main.js"></script>
+
 </body>
 
 
