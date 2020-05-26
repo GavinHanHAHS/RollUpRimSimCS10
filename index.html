@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!-- Tim Horton's Roll up the rim assignment -->
+<!-- CS10 -->
+<!-- Gavin Han, May 26th, 2020 -->
+<!-- ^this is kinda exaggerated since I had to restart -->
+<!-- ^I got a new computer and forgot to commit my files last time -->
+
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+  <div class="main" id="main">
+    <!-- Title for Webpage -->
+    <h1>Tim Hortons RRRoll up the Rim Sim.</h1>
+
+    <hr>
+
+    <!-- Dropdown menu for user to choose Region-->
+    <label for="region">Region: </label>
+    <select name="region" id="region">
+      <option value="none"> </option>
+      <option value="bc">British Columbia</option>
+      <option value="ab">Alberta</option>
+      <option value="sas">Saskatchewan</option>
+    </select>
+
+    <!-- Options for simulation -->
+    <button id="once">Simulate Once</button>
+    <button id="five">Simulate Five Times</button>
+    <button id="grand">Simulate until a Grand Prize</button>
+    <button id="500">Simulate until 500 Donuts</button>
+
+    <hr>
+
+    <!-- Image for prize -->
+    <h2> Prize </h2>
+    <img src="" alt="Prize Image">
+
+    <!-- No. of prizes -->
+    <h3>No. of prizes</h3>
+    <ul>
+      <li>Nothing: <span id="nothing">0</span></li>
+      <li>Free Donut: <span id="donut">0</span></li>
+      <li>Free Coffee: <span id="coffee">0</span></li>
+      <li>Grand Prize: <span id="grand">0</span></li>
+    </ul>
+
+  </div>
+</body>
+
+
+
+</html>
